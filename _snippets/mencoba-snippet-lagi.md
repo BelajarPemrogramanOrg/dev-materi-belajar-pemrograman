@@ -10,7 +10,8 @@ permalink: >
 published: true
 ---
 Ini snippet mestinya
-<pre class="prettyprint lang-php" data-start-line="1" data-visibility="visible" data-highlight="" data-caption="">function yx_shop_noindex_pages() {
+<pre class="prettyprint lang-php" data-start-line="1" data-visibility="visible" data-highlight="" data-caption="">&lt;?php
+function yx_shop_noindex_pages() {
   if (isset($_GET['orderby'])) {
     echo '&lt;meta name="robots" content="noindex, nofollow, noarchive"&gt;';
   }
