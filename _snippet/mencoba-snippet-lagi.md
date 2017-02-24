@@ -10,7 +10,7 @@ permalink: >
 published: true
 ---
 Ini snippet mestinya
-<pre data-line="2"><code class="language-php line-numbers">function yx_shop_noindex_pages() {
+<pre data-start="2"><code class="language-php line-numbers">function yx_shop_noindex_pages() {
   if (isset($_GET['orderby'])) {
     echo '&lt;meta name="robots" content="noindex, nofollow, noarchive"&gt;';
   }
